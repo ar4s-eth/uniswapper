@@ -1,0 +1,53 @@
+warning package.json: No license field
+warning package.json: "dependencies" has dependency "@testing-library/dom" with range "^8.11.1" that collides with a dependency in "devDependencies" of the same name with version "^6.12.2"
+[1/4] 🤔  Why do we have the module "ethereumjs-abi"...?
+[2/4] 🚚  Initialising dependency graph...
+[3/4] 🔍  Finding dependency...
+[4/4] 🚡  Calculating file sizes...
+=> Found "ethereumjs-abi@0.6.5"
+info Has been hoisted to "ethereumjs-abi"
+info Reasons this module exists
+   - "workspace-aggregator-a460b4c8-3687-4e78-a7cb-b038471179dd" depends on it
+   - Hoisted from "_project_#@scaffold-eth#react-app#burner-provider#eth-sig-util#ethereumjs-abi"
+info Disk size without dependencies: "172KB"
+info Disk size with unique dependencies: "388KB"
+info Disk size with transitive dependencies: "13.84MB"
+info Number of shared dependencies: 40
+=> Found "eth-sig-util#ethereumjs-abi@0.6.8"
+info This module exists because "_project_#eth-sig-util" depends on it.
+info Disk size without dependencies: "344KB"
+info Disk size with unique dependencies: "560KB"
+info Disk size with transitive dependencies: "14MB"
+info Number of shared dependencies: 40
+=> Found "hardhat#ethereumjs-abi@0.6.8"
+info This module exists because "_project_#@scaffold-eth#hardhat#hardhat" depends on it.
+info Disk size without dependencies: "376KB"
+info Disk size with unique dependencies: "592KB"
+info Disk size with transitive dependencies: "14.04MB"
+info Number of shared dependencies: 40
+=> Found "hardhat#eth-sig-util#ethereumjs-abi@0.6.5"
+info This module exists because "_project_#@scaffold-eth#hardhat#hardhat#eth-sig-util" depends on it.
+info Disk size without dependencies: "172KB"
+info Disk size with unique dependencies: "388KB"
+info Disk size with transitive dependencies: "13.84MB"
+info Number of shared dependencies: 40
+=> Found "ganache-core#ethereumjs-abi@0.6.7"
+info This module exists because "_project_#@scaffold-eth#hardhat#ethereum-waffle#@ethereum-waffle#provider#ganache-core" depends on it.
+info Disk size without dependencies: "92KB"
+info Disk size with unique dependencies: "308KB"
+info Disk size with transitive dependencies: "13.76MB"
+info Number of shared dependencies: 40
+=> Found "ganache-core#eth-sig-util#ethereumjs-abi@0.6.5"
+info This module exists because "_project_#@scaffold-eth#hardhat#ethereum-waffle#@ethereum-waffle#provider#ganache-core#eth-sig-util" depends on it.
+info Disk size without dependencies: "172KB"
+info Disk size with unique dependencies: "388KB"
+info Disk size with transitive dependencies: "13.84MB"
+info Number of shared dependencies: 40
+=> Found "ganache-core#web3-provider-engine#ethereumjs-abi@0.6.8"
+info Reasons this module exists
+   - "_project_#@scaffold-eth#hardhat#ethereum-waffle#@ethereum-waffle#provider#ganache-core#web3-provider-engine#eth-sig-util" depends on it
+   - Hoisted from "_project_#@scaffold-eth#hardhat#ethereum-waffle#@ethereum-waffle#provider#ganache-core#web3-provider-engine#eth-sig-util#ethereumjs-abi"
+info Disk size without dependencies: "344KB"
+info Disk size with unique dependencies: "560KB"
+info Disk size with transitive dependencies: "14MB"
+info Number of shared dependencies: 40

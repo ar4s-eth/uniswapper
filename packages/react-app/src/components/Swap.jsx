@@ -76,9 +76,11 @@ function Swap({ selectedProvider, tokenListURI }) {
   let signer = selectedProvider.getSigner()
   let routerContract = new ethers.Contract(ROUTER_ADDRESS, IUniswapV2Router02ABI, signer);
 
-  let _tokenListUri = tokenListURI ? tokenListURI : 'https://gateway.ipfs.io/ipns/tokens.uniswap.org'
-
+  
   useEffect(() => {
+
+    let _tokenListUri = tokenListURI ? tokenListURI : 'https://gateway.ipfs.io/ipns/tokens.uniswap.org'
+    
     const getTokenList = async () => {
       console.log(_tokenListUri)
       try {
